@@ -24,12 +24,13 @@ print(mu.rd_nmvar()) """
 
 
 #datetime
-""" import datetime
+""" from datetime import datetime as dt
 #(현재 시간 출력 dt.now())
 print(dt.now())
 
 #(특정 시간대의 현재 시간 출력)
-import timezone
+from pytz import timezone
+#tx = timezone('Asia/Seoul')
 tz = timezone('UTC')
 print("timezone : ", dt.now(tz)) """
 
