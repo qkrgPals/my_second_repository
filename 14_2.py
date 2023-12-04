@@ -349,11 +349,3 @@ plt.plot([2,3,6,7,10], [1,4,5,8,9], linestyle="dashdot", label="PData(km)")
 
 
 plt.show()
-
-##마커 지정
-
-
-
-##그래프 영역 채우기
-
-
